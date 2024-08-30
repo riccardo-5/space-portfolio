@@ -51,9 +51,11 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px] transition-all"
+          href="https://linkedin.com/in/riccardo-tosin"
+          target="_blank"
         >
-          Learn More!
+          My LinkedIn Profile
         </motion.a>
       </div>
 
